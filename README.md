@@ -1,3 +1,15 @@
+
+## My S3 buckets
+
+**Public S3 bucket:** [View my collection of 100 Project Gutenberg books](https://public-xda8uy.s3.amazonaws.com/index.html)
+
+**Private S3 bucket:** `secret-xda8uy`
+
+**Presigned URL:** Generated using `share_book.sh`. The URL provides temporary access to the private book and expires automatically.
+
+
+The public S3 bucket allows anyone to access the collection of 100 books. The private S3 bucket restricts public access, but a presigned URL allows temporary access to one specific book.
+
 # Lab 06: Working with S3 Storage
 
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
