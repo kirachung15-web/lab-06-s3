@@ -5,8 +5,7 @@
 
 **Private S3 bucket:** `secret-xda8uy`
 
-**Presigned URL:** Generated using `share_book.sh`. The URL provides temporary access to the private book and expires automatically.
-
+**Presigned URL:** [View my private book](https://secret-xda8uy.s3.us-east-1.amazonaws.com/174.txt.utf-8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARRLB2NWCMUTYPVRC%2F20261016%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261016T190301Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJHMEUCIA4WFrn9pUJG7uzx4FDP1cT4KiyDxSKnzEst1pkBjRBdAiEAof%2BlXGHEMAbDtgssw5iyLuIIUoWkOBOyU3FVi%2BonycsqtgII7P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxMDU5Njg3MjUzODAiDGH8RkL6Lfay2MAOKiqKAqkRaW8FbODloiKlzj5JKis%2FPJ7KZXkv8yzJGipDIYwMKEFa3LdSDtFtHnrXAJ79z8X%2Bl8wVHeoNR7f5iH%2BKqcAi4e%2BsQFjjrVXrW5ocMa%2Bh12O6hIP10qW%2FwRVFZ%2Btnba2ddbZb%2BX760ZfWvRi9kmt2FcJjjRpHcGKUK95ZHVoCZkGOPTG0BujkjNMWATmiZ1iF0%2Bs%2FqgFZPA37XxL5boKLu9A99WDQlMTt5Y%2FPJD24F4YQfmMMwS7SrYLxPPZSENVlxKUZ0zMDVLK3wIA53ig97EjfbORRcHnzSmbpzYbaedxW4f4%2B2OlyBgWXJU7m14EU6HjjXvJZmrHylDIQ6%2BPqi1ko2WZRruKIMKXkydYGOp0B%2F4BGcoWFfqwRqpR%2FLZAiaSvOiyxKahGwdGlsYiTuXe76WMdz9bVTY0FX96SOFji7nQxlEK3fCp5ycIn0Zv7ChU2g0hlqKmfrxE9OOqrGU%2FH7yNwX8wJJhV65IUVeTzV%2BsZKn1vlBwhAAYZPIshXUvJzdnj1jQWIupRCAT5ocsjaam7sBcPkGTN0PMAmzvPhcP5AWx%2FlTrE7iC6JM2A%3D%3D&X-Amz-Signature=a79bdcc1e4bdbafbd4b824e3fab1b2a3418bb1ba9be57150fd44d1d970d6acbd)
 
 The public S3 bucket allows anyone to access the collection of 100 books. The private S3 bucket restricts public access, but a presigned URL allows temporary access to one specific book.
 
